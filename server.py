@@ -10,6 +10,7 @@ from ted_api import search_ted
 
 mcp = FastMCP(
     "TED Search",
+    host="0.0.0.0",
     instructions=(
         "Use search_ted_notices to find public procurement notices. "
         "For network-security screening, search broadly, then assess the returned "
